@@ -1,4 +1,4 @@
 # ADXL345-Accelerometer-Application
 Developed an AXI-Lite SPI Master IP Block in VHDL to interface with the Digilent ADXL345 Accelerometer through one of the Pmod connectors of a Zedboard - Xilinx Zynq-7000 SoC. To transfer a specific number of bytes between the SPI Master and Slave (Accelerometer) devices, I utilized the Programmable System (PS) fabric of the Xilinx Zynq device that includes a software-programmable processor. Developed using the C programming language the corresponding driver functions and an application program that implements a digital level, a tool that would return the angle of incline of the Zedboard.
 
-Note: The SPI_Master.vhd and SPI_Master_With_Single_CS.vhd files were taken from https://github.com/nandland/spi-master/tree/master/VHDL/source and have been slightly modified accordingly for my application.
+<ins>Note:<ins> The SPI_Master.vhd and SPI_Master_With_Single_CS.vhd files were taken from https://github.com/nandland/spi-master/tree/master/VHDL/source and have been slightly modified accordingly for my application.
