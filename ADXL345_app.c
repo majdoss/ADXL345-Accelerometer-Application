@@ -27,7 +27,7 @@ void TMR_Intr_Handler(void *CallBackRef, u8 TmrCtrNumber) {
 
   		for (devid =0; devid < 10000000; devid++);
 
-  	    x = (SPI_MASTER_IP_mReadReg(SPI_MASTER_BASEADDR, 24) & 0x00FFFF00) >> 8;
+  	    	x = (SPI_MASTER_IP_mReadReg(SPI_MASTER_BASEADDR, 24) & 0x00FFFF00) >> 8;
 
   		if ((x >> 15) == 1) {
   			x = x | 0xFFFF0000;
